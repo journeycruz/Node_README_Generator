@@ -52,23 +52,23 @@ inquirer
         message: "Are there any questions with this project?",
         name: "questions"
     }])
-    .then((answers) => {
-        const queryUrl = `https://api.github.com/users/${answers.username}`;
+    .then((userInput) => {
+        const queryUrl = `https://api.github.com/users/${userInput.username}`;
 
         axios.get(queryUrl).then(function (res) {
             const userEmail = res.data.email;
             const userAvi = res.data.avatar_url;
 
-            let readMe = `# ${answers.title}
+            let readMe = `# ${userInput.title}
 
             ## Description 
             
-            ${answers.description}    
+            ${userInput.description}    
             
             
             ## Table of Contents (Optional)
             
-            ${answers.tableOfContents}
+            ${userInput.tableOfContents}
             
             * [Installation](#installation)
             * [Usage](#usage)
@@ -78,28 +78,28 @@ inquirer
             
             ## Installation
             
-            ${answers.installation}
+            ${userInput.installation}
             
             
             ## Usage 
             
-            ${answers.usage} 
+            ${userInput.usage} 
             
             
             ## License
             
-            ${answers.license}
+            ${userInput.license}
         
             ## Badges
             
             
             ## Contributing
             
-            ${answers.contributing}
+            ${userInput.contributing}
             
             ## Tests
             
-            ${answers.tests}
+            ${userInput.tests}
             
             ${userEmail}
 
