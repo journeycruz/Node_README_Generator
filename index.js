@@ -67,9 +67,6 @@ function promptUser() {
             const queryUrl = `https://api.github.com/users/${username}`;
 
             axios.get(queryUrl).then(function (res) {
-                console.log(res);
-                console.log(res.data.avatar_url);
-                console.log(res.data.email);
                 const userEmail = res.data.email;
                 const userAvi = res.data.avatar_url;
             })
@@ -121,9 +118,13 @@ inqPromise.then(function(userInput) {
     ${userInput.tests}
     `;
     let writePromise = writeFileAsync("README.md", readMe, "utf8");
-    writePromise.then(function(err) {
-        console.log('Successfully wrote out to README.md!');
+    writePromise.then(function() {
+        console.log("Successfully wrote out to README.md!");
     }).catch(function(err) {
-        console.log("Problem with writing file README.md")
-    })
+        console.log("Problem with writing file README.md");
+        console.log(err);
+    }).catch(function(err) {
+        console.log("Problem with inquirer prompt");
+        console.log(err);
+    });
 })
