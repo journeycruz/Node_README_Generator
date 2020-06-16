@@ -78,5 +78,52 @@ function promptUser() {
 
 inqPromise = promptUser()
 inqPromise.then(function(userInput) {
-    let readMe = ``
+    let readMe = `# ${userInput.title}
+
+    ## Description 
+    
+    ${userInput.description}    
+    
+    
+    ## Table of Contents (Optional)
+    
+    ${userInput.tableOfContents}
+    
+    * [Installation](#installation)
+    * [Usage](#usage)
+    * [Credits](#credits)
+    * [License](#license)
+    
+    
+    ## Installation
+    
+    ${userInput.installation}
+    
+    
+    ## Usage 
+    
+    ${userInput.usage} 
+    
+    
+    ## License
+    
+    ${userInput.license}
+
+    ## Badges
+    
+    
+    ## Contributing
+    
+    ${userInput.contributing}
+    
+    ## Tests
+    
+    ${userInput.tests}
+    `;
+    let writePromise = writeFileAsync("README.md", readMe, "utf8");
+    writePromise.then(function(err) {
+        console.log('Successfully wrote out to README.md!');
+    }).catch(function(err) {
+        console.log("Problem with writing file README.md")
+    })
 })
