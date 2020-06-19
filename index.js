@@ -1375,7 +1375,6 @@ ${license}
 
 ## Badges
 
-![Top Language](https://img.shields.io/github/languages/top/${userInput.username}/${userInput.repo}) ![GitHub last commit](https://img.shields.io/github/last-commit/${userInput.username}/${userInput.repo})  ![GitHub Followers](https://img.shields.io/github/followers/${userInput.username}?style=social)¸
             
 ## Contributing
             
@@ -1384,9 +1383,11 @@ ${userInput.contributing}
 ## Tests
             
 ${userInput.tests}
-            
+
+## Github Email
 ${userEmail}
 
+## Github Profile Picture
 ${userAvi}
 `;
             fs.writeFile("README.md", readMe, (err) => {
@@ -1398,3 +1399,4 @@ ${userAvi}
     .catch(function (err) {
         console.log(err);
     });
+    

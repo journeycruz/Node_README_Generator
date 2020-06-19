@@ -12,7 +12,7 @@ Installation,Usage,Credits,License
             
 ## Installation
             
-inquirer, and axios
+inquirer and axios
             
             
 ## Usage 
@@ -22,7 +22,7 @@ Open your terminal and navigate to the folder that you are holding the index.js 
             
 ## License
             
-Copyright <YEAR> <COPYRIGHT HOLDER>
+Copyright <2020> <Journey Cruz>
 
                 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
                 
@@ -33,16 +33,18 @@ Copyright <YEAR> <COPYRIGHT HOLDER>
                 
 
 ## Badges
-            
+
             
 ## Contributing
             
-Be nice and follow license guidelines
+be nice and follow license guidelines
             
 ## Tests
             
-Test to see if you are able to recieve the email address for your Githib account. You may need to revise your email settings for your Github account in your browser. 
-            
+Test to see if you are able to recieve the email address for your Githib account. You may need to revise your email settings for your Github account in your browser.
+
+## Github Email
 null
 
+## Github Profile Picture
 https://avatars2.githubusercontent.com/u/62083284?v=4
