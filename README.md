@@ -1,28 +1,28 @@
 
-# Node.js README Generator
+# Team Generator using Object Oriented Programming
 
 ## Description 
             
-This application allows a user to generate a good README document for any project using Node.js, inquirer, and axios. The generator will communicate with a the Github API to also include the project creator's email address and Github profile photo.    
+This is a node application that allows a user to save all members of a project to an html document so that all team members and their contact information can be easily accessed.     
             
             
 ## Table of Contents (Optional)
-Installation,Usage,Credits,License
+
             
             
 ## Installation
             
-inquirer and axios
+Inquirer and Jest
             
             
 ## Usage 
             
-Open your terminal and navigate to the folder that you are holding the index.js file for this project in. Before running node, you will have to install axios, and inquirer. After you have installed these tools or if you already had them installed globally on your computer, run the command "node. index.js". Type out everything you would like included into your README and select appropriate license. Once you have finished answering all of the questions your README.md file will be written and stored in the same folder as the index.js file. 
+When you first run this command you will be asked to answer questions about your team members. Once you have entered in all of the necessary information the application will take your input and write an html document with your team members information so that you can easily access it at a later time. 
             
             
 ## License
             
-Copyright <2020> <Journey Cruz>
+Copyright <YEAR> <COPYRIGHT HOLDER>
 
                 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
                 
@@ -37,11 +37,11 @@ Copyright <2020> <Journey Cruz>
             
 ## Contributing
             
-be nice and follow license guidelines
+
             
 ## Tests
             
-Test to see if you are able to recieve the email address for your Githib account. You may need to revise your email settings for your Github account in your browser.
+
 
 ## Github Email
 null
