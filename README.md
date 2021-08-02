@@ -1,37 +1,25 @@
+<h1 align="center">Welcome to Node_README_Generator 👋</h1>
+<p>
+  <a href="#" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  </a>
+</p>
 
-# Node README.md Generator
+> Node.js application that allows users to create README.md files quickly and easily. Include a link to a GitHub Repository and select the best license for your project.
 
-## Description 
-            
->Node.js application that allows users to create README.md files quickly and easily. Include a link to a GitHub Repository and select the best license for your project.    
-            
-            
-## Table of Contents (Optional)
-Installation,Usage,Credits,License
-            
-            
-## Installation
-            
-inquirer, axios
-            
-            
-## Usage 
-            
-To use open terminal and navigate to folder containing index.js for this project. Run the command node run index.js and follow the prompts in your terminal. Once you have answered all of the questions your README.md file will be written and saved into the same folder containing index.js 
-            
-            
-## License
-            
-MIT
+### 🏠 [Homepage](https://github.com/journeycruz/Node_README_Generator)
 
-## Badges
+## Author
 
-            
-## Contributing
-            
-If you have an idea on how to improve this project, feel free to clone and make any changes you would like
-            
-## Tests
-            
-No tests are set up for this project at this time
+👤 **Journey Cruz**
 
+* Website: https://webdevportfolio20.herokuapp.com/
+* Github: [@journeycruz](https://github.com/journeycruz)
+* LinkedIn: [@https:\/\/www.linkedin.com\/in\/journeycruz\/](https://linkedin.com/in/https:\/\/www.linkedin.com\/in\/journeycruz\/)
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
