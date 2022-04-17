@@ -1,0 +1,23 @@
+{
+  "name": "node_readme_generator",
+  "version": "1.0.0",
+  "description": "generate readme file for projects in the command line",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/journeycruz/Node_README_Generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/journeycruz/Node_README_Generator/issues"
+  },
+  "homepage": "https://github.com/journeycruz/Node_README_Generator#readme",
+  "devDependencies": {
+    "axios": "^0.26.1",
+    "inquirer": "^8.2.2"
+  }
+}
